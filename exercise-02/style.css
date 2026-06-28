@@ -1,5 +1,7 @@
-{box-sizing: border-box;}
-[body] {
+* {
+    box-sizing: border-box;
+}
+body {
     font-family: times new roman, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -15,7 +17,8 @@
     max-width: 600px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-[h1, p] {
+h1,
+p {
     color: #310d0d;
     font-size: 1.2rem;
     margin: 0 0 10px 0;
