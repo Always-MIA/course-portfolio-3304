@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0;
+    background: linear-gradient(180deg, #fff5eb 0%, #f3e5dc 100%);
+    color: #3f2f25;
+}
+
+main {
+    max-width: 1200px;
+    width: 90%;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid rgba(97, 61, 44, 0.2);
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 18px 40px rgba(102, 62, 33, 0.12);
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #743d28;
+}
+
+main > p {
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #5c443b;
+}
+
+.collection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 42px 0;
+}
+
+.collection-card {
+    border-radius: 20px;
+    border: 1px solid rgba(125, 90, 71, 0.14);
+    background-color: #fdf0e7;
+    padding: 18px;
+    width: 300px;
+    box-shadow: 0 12px 24px rgba(113, 72, 50, 0.08);
+}
+
+.collection-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    border: 1px solid rgba(130, 83, 53, 0.18);
+    margin-bottom: 16px;
+}
+
+.collection-card h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #5f3e32;
+}
+
+.collection-card .details {
+    font-size: 14px;
+    color: #7d5f51;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.collection-card .description {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.7;
+    color: #4e3a31;
+}
+
+@media (width >= 480px) {
+    .collection-card {
+        width: 45%;
+    }
+}
+
+@media (width >= 1024px) {
+    .collection-card {
+        width: 30%;
+    }
+}
+@media (width >= 480px) {
+    .collection-card {
+        width: 45%;
+    }
+}
+ @media (width >= 1024px) {
+        .collection-card {
+            width: 30%;
+        }
+    }
